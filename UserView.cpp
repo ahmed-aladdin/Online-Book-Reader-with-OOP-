@@ -62,7 +62,7 @@ void UserView::listAllBooks() {
             break;
         cout << "Invalid choice try again.\n";
     }
-    BookSession *new_session = new BookSession(*book_manger->getBook(choice));
+    BookSession *new_session = new BookSession(*book_manger->getBook(choice),choice);
     user->addBookSession(new_session);
     new_session->menu();
 }

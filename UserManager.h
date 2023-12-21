@@ -13,22 +13,28 @@
 
 class UserManager {
 private:
-    map<std::string, User> users;
+    map<std::string, User *> users;
     BookManger *bookManger;
 public:
     UserManager(BookManger &bookManger);
 
+    ~UserManager();
+
     bool is_registered(string &user_name);
 
-    bool verifyLogin(string &user_name,string &password);
+    bool verifyLogin(string &user_name, string &password);
 
     void Login();
 
     void SignUp();
 
-    void addUser(User &user);
+    void addUser(User *user);
 
     User *getUser(string &user_name);
+
+    void loadData(ifstream &user_data);
+
+    void saveData(ofstream &user_data);
 };
 
 

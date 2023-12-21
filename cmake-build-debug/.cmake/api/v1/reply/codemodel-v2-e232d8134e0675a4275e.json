@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Online_Book_Reader_with_OOP_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Online_Book_Reader_with_OOP_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Online_Book_Reader_with_OOP_-Debug-cf48883af5ffda4e25d8.json",
+					"name" : "Online_Book_Reader_with_OOP_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ahmed/Downloads/My-Github/Online-Book-Reader-with-OOP-/cmake-build-debug",
+		"source" : "C:/Users/ahmed/Downloads/My-Github/Online-Book-Reader-with-OOP-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

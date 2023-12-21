@@ -4,8 +4,13 @@
 
 #include "BookSession.h"
 
-BookSession::BookSession(const Book &book) : book(&book) {
+BookSession::BookSession(const Book &book, int book_id) : book(&book), book_id(book_id) {
     current_page = 1;
+}
+
+BookSession::BookSession(const Book &book, int book_id, int current_page, const std::string &last_time)
+        : book(&book), book_id(book_id), current_page(current_page), last_time(last_time) {
+
 }
 
 void BookSession::menu() {
@@ -69,6 +74,10 @@ int BookSession::getCurrentPage() const {
 
 void BookSession::setCurrentPage(int current_page) {
     this->current_page = current_page;
+}
+
+int BookSession::getBookId() const {
+    return book_id;
 }
 
 void BookSession::printCurrentPage() const {

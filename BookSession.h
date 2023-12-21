@@ -14,10 +14,12 @@
 class BookSession {
 private:
     const Book *book;
-    int current_page;
+    int current_page, book_id;
     string last_time;
 public:
-    BookSession(const Book &book);
+    BookSession(const Book &book, int book_id);
+
+    BookSession(const Book &book, int book_id, int current_page, const string &last_time);
 
     void menu();
 
@@ -37,7 +39,9 @@ public:
 
     const string SessionToStr() const;
 
-    void printCurrentPage()const;
+    int getBookId() const;
+
+    void printCurrentPage() const;
 };
 
 
