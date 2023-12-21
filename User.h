@@ -20,6 +20,8 @@ public:
     User(const string &user_name, const string &password, const string &full_name,
          const string &email, const bool &is_admin);
 
+    ~User();
+
     bool checkPassord(string &password) const;
 
     void printProfile() const;
@@ -48,7 +50,12 @@ public:
 
     int getNumberOfSessions() const;
 
+    bool getIsAdmin() const;
+
+    const vector<BookSession *> &getAllSessions() const;
+
     BookSession *getSessionAt(int id) const;
+
 
 };
 

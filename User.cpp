@@ -13,6 +13,13 @@ User::User(const string &user_name, const string &password, const string &full_n
           email(email), is_admin(is_admin) {
 }
 
+User::~User() {
+    for (auto &session: sessions) {
+        delete session;
+        session = nullptr;
+    }
+}
+
 bool User::checkPassord(string &password) const {
     return password == getPassword();
 }
@@ -73,8 +80,15 @@ void User::printAllSessions() const {
 }
 
 int User::getNumberOfSessions() const {
-
     return int(sessions.size());
+}
+
+bool User::getIsAdmin() const {
+    return is_admin;
+}
+
+const vector<BookSession *> &User::getAllSessions() const {
+    return sessions;
 }
 
 BookSession *User::getSessionAt(int id) const {

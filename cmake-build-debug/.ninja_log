@@ -1,0 +1,17 @@
+# ninja log v5
+129	2186	7248882173466916	CMakeFiles/Online_Book_Reader_with_OOP_.dir/BookManager.cpp.obj	6934e37505f02043
+2115	2946	7248882181125762	CMakeFiles/Online_Book_Reader_with_OOP_.dir/UserView.cpp.obj	4dfda42a405aecf4
+30	2155	7248882173113763	CMakeFiles/Online_Book_Reader_with_OOP_.dir/AdminView.cpp.obj	99bcdd8ec5a19ce5
+2	1950	7247349717879069	CMakeFiles/Online_Book_Reader_with_OOP_.dir/Book.cpp.obj	b435c738ddbe9dc7
+100	2114	7248882172556995	CMakeFiles/Online_Book_Reader_with_OOP_.dir/main.cpp.obj	dd6f00a3ed0f9539
+3	1111	7248908824296101	CMakeFiles/Online_Book_Reader_with_OOP_.dir/UserManager.cpp.obj	cd9c2a5437d6e2c9
+72	2089	7248882172442681	CMakeFiles/Online_Book_Reader_with_OOP_.dir/BookSession.cpp.obj	39f7b7da4b74d689
+207	2213	7248882173744222	CMakeFiles/Online_Book_Reader_with_OOP_.dir/User.cpp.obj	ce6f46536c37d4c5
+19	1013	7248908823307877	CMakeFiles/Online_Book_Reader_with_OOP_.dir/OnlineBookSystem.cpp.obj	d76efe67fb5427ca
+1112	1422	7248908827297230	Online_Book_Reader_with_OOP_.exe	63265ee5401f4f91
+3	840	7248911487995214	build.ninja	b61d79a8b0d07040
+1	335	7248911487995214	build.ninja	b61d79a8b0d07040
+4	751	7248911496548326	CMakeFiles/Online_Book_Reader_with_OOP_.dir/OnlineBookSystem.cpp.obj	d76efe67fb5427ca
+752	1030	7248911499248214	Online_Book_Reader_with_OOP_.exe	63265ee5401f4f91
+3	737	7248912467655353	CMakeFiles/Online_Book_Reader_with_OOP_.dir/OnlineBookSystem.cpp.obj	d76efe67fb5427ca
+737	1003	7248912470227517	Online_Book_Reader_with_OOP_.exe	63265ee5401f4f91

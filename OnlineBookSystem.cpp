@@ -34,16 +34,17 @@ void OnlineBookSystem::run() {
 }
 
 void OnlineBookSystem::loadData() {
-    User admin("admin", "123", "Main_admin", "admin@gmail.com", true);
-    user_manager.addUser(admin);
-    User user("user", "123", "user1", "user1@gmail.com", false);
-    user_manager.addUser(user);
-    Book *book = new Book(123, "C++", "hussien", 2,
-                          {"hello", "world"});
-    book_manager.addBook(book);
+    ifstream book_data("BookData.txt");
+    book_manager.loadData(book_data);
+
+    ifstream user_data("UserData.txt");
+    user_manager.loadData(user_data);
 }
 
 void OnlineBookSystem::saveData() {
-    ofstream user_data("UserData.txt");
     ofstream book_data("BookData.txt");
+    book_manager.saveData(book_data);
+
+    ofstream user_data("UserData.txt");
+    user_manager.saveData(user_data);
 }
