@@ -1,4 +1,4 @@
-# AskMe
+# Online Book Reader
 
 An object-oriented programming (OOP) project designed to implement an online book reading system. 
 The system interacts with users through console-based input/output operations, allowing users to view profiles, read books, and perform other relevant actions. 
